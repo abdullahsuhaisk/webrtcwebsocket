@@ -15,7 +15,7 @@ const port = 80
 
 // https://expressjs.com/en/guide/writing-middleware.html
 // app.use(express.static(__dirname + '/build'))
-app.get('/', (req, res, next) => {
+app.get('/', (req, res) => {
     // res.sendFile(__dirname + '/build/index.html')
     res.send('Welcome')
 })
