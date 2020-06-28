@@ -1,4 +1,6 @@
 const express = require('express')
+var cors = require('cors')
+
 
 var io = require('socket.io')
 ({
@@ -6,6 +8,7 @@ var io = require('socket.io')
 })
 
 const app = express()
+app.use(cors())
 const port = 8080
 
 // app.get('/', (req, res) => res.send('Hello World!!!!!'))
