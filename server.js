@@ -9,7 +9,7 @@ var io = require('socket.io')
 
 const app = express()
 app.use(cors())
-const port = 8080
+const port = 80
 
 // app.get('/', (req, res) => res.send('Hello World!!!!!'))
 
